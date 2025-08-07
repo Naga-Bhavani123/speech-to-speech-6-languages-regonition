@@ -1,31 +1,61 @@
-/* Write your CSS he*/
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-
+/* index.css */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 50px;
-  background-color: #f0f0f0;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
   background-color: white;
-  padding: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
 }
 
 button {
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  background-color: #007bff;
+  background-color: #667eea;
   color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
   font-size: 16px;
-  border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #5a67d8;
+}
+
+#recognized-text {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #333;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 10px;
 }
